@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to bottom right, #6b6262, #102341);
+}
+.quote-body {
+  width: 370px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  height: 80vh;
+  padding: 20px;
+  background-color: rgba(4, 28, 51, 1);
+  border-radius: 30px;
+}
+.screen {
+  color: #ffffff;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+  text-align: center;
+  background: radial-gradient(
+    circle,
+    rgba(28, 115, 186, 1) 0%,
+    rgba(4, 28, 51, 1) 62%
+  );
+  font-size: 20px;
+}
+.controls {
+  width: 50%;
+  margin: auto;
+}
+.btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  color: rgba(4, 28, 51, 1);
+}
